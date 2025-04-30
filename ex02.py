@@ -1,7 +1,5 @@
-contador = 0
 soma = 0
 numero = int(input("Insira um numero: "))
-while contador <= numero:
+for contador in range(0, numero + 1):
     soma += contador
-    contador += 1
 print(soma)
