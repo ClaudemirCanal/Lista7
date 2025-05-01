@@ -4,5 +4,4 @@ soma = 0
 for contador in range (0, 201):
     resto = contador % 3
     soma += resto
-    contador += 1
 print(soma)
